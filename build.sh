@@ -1,6 +1,6 @@
 make stop
 
-rm -r build/*
+rm -rf build/*
 
 cd build
 

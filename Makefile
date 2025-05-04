@@ -21,4 +21,5 @@ install:
 	sudo chmod +x ./install.sh
 	sudo chmod +x ./build.sh
 	sudo chmod +x ./script.sh
+	mkdir -p build
 	./install.sh
