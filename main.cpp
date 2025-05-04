@@ -61,7 +61,7 @@ int main() {
             "video/x-raw, format=NV12 ! "
             "nvvidconv ! "
             "video/x-raw(memory:NVMM), format=NV12 ! "
-            "nvv4l2h264enc insert-sps-pps=true insert-vui=true bitrate=8000000 ! "
+            "nvv4l2h264enc insert-sps-pps=true insert-vui=true bitrate=2000000 ! "
             "h264parse ! "
             "qtmux ! "
             "filesink location=" + current_output_file;

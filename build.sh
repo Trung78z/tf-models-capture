@@ -4,9 +4,6 @@ rm -r build/*
 
 cd build
 
-
-make clean
-
 cmake ..
 
 make -j4
