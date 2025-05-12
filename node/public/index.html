@@ -7,7 +7,7 @@
   <h1>Live Stream</h1>
   <img id="video" src="" width="640" />
   <script>
-    const ws = new WebSocket('ws://localhost:3000');
+    const ws = new WebSocket(`ws://${window.location.hostname}:3000`);
     const img = document.getElementById('video');
 
     ws.onmessage = (event) => {
