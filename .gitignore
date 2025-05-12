@@ -2,4 +2,5 @@
 **/*.avi
 **/*.mkv
 **/build/*
-**/capture
+collects/*
+.vscode/*

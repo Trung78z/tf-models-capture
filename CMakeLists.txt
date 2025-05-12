@@ -3,7 +3,7 @@ project(capture)
 
 find_package(OpenCV REQUIRED)
 
-add_executable(capture main.cpp)
+add_executable(capture cap_runtime.cpp)
 target_link_libraries(capture ${OpenCV_LIBS})
 
 set(CMAKE_CXX_STANDARD 11)
