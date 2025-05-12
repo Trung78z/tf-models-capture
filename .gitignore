@@ -4,3 +4,4 @@
 **/build/*
 collects/*
 .vscode/*
+node/package-lock.json
